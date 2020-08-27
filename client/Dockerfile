@@ -1,4 +1,4 @@
-FROM node:8.7.0-alpine
+FROM node:10.21.0-alpine
 
 RUN mkdir -p /srv/app/toolbox-client
 WORKDIR /srv/app/toolbox-client

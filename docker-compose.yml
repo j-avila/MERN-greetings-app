@@ -15,6 +15,7 @@ services:
 
   client:
     build: ./client
+    stdin_open: true
     expose:
       - ${REACT_APP_PORT}
     environment:
